@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nhóm-Web CV (Dark)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background:transparent;">
+  <div class="container">
+    <a class="navbar-brand" href="#">Nhóm - Web CV</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navC">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navC">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#members">Thành viên</a></li>
+        <li class="nav-item"><a class="nav-link" href="#requirements">Tiêu chí</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="banner container fade-in">
+  <div style="position:relative;z-index:2">
+    <h1 style="margin:0;font-size:34px">Nhóm — Trang web CV cá nhân</h1>
+    <p style="color:var(--muted);margin-top:6px">Mỗi thành viên có một trang CV riêng — Khoa, A, B.</p>
+  </div>
+</header>
+
+<main class="container">
+  <section id="members" class="section fade-in">
+    <h3>Thành viên</h3>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="card khoa">
+          <div class="d-flex gap-3 align-items-center">
+            <img src="img/khoa.jpg" alt="Khoa" class="avatar">
+            <div>
+              <h5 style="margin:0">Khoa</h5>
+              <p style="margin:0;color:var(--muted)">Front-end developer</p>
+              <div style="margin-top:8px">
+                <a class="btn btn-sm btn-outline-light" href="members/khoa.html">Xem trang</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card huy">
+          <div class="d-flex gap-3 align-items-center">
+            <img src="img/huy.jpg" alt="Huy" class="avatar">
+            <div>
+              <h5 style="margin:0">A</h5>
+              <p style="margin:0;color:var(--muted)">Back-end developer</p>
+              <div style="margin-top:8px">
+                <a class="btn btn-sm btn-outline-light" href="members/huy.html">Xem trang</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card tram">
+          <div class="d-flex gap-3 align-items-center">
+            <img src="img/tram.jpg" alt="Tram" class="avatar">
+            <div>
+              <h5 style="margin:0">B</h5>
+              <p style="margin:0;color:var(--muted)">Full-stack developer</p>
+              <div style="margin-top:8px">
+                <a class="btn btn-sm btn-outline-light" href="members/tram.html">Xem trang</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="requirements" class="section fade-in">
+    <h3>Tiêu chí cơ bản</h3>
+    <ul>
+      <li>Banner & Navbar: 1.0</li>
+      <li>Layout tổng thể: 1.0</li>
+      <li>Thông tin cá nhân: 1.0</li>
+      <li>Thông tin nghề nghiệp: 0.5</li>
+      <li>Sở thích: 0.5</li>
+      <li>Ngôn ngữ & Kỹ năng: 1.0</li>
+      <li>Chứng chỉ: 0.5</li>
+      <li>Dự án cá nhân: 0.5</li>
+      <li>Liên hệ: 0.5</li>
+      <li>Thông tin thật: 0.5</li>
+    </ul>
+    <p style="color:var(--muted)">Lưu ý: mỗi sinh viên đưa mã nguồn cá nhân lên GitHub và nộp link trang nhóm.</p>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
